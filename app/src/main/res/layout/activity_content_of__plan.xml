@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_content_of__plan"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.sqldesign_test.activity_set.Content_of_Plan">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar_content_plan"
+        android:background="@color/night_mode"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:id="@+id/iv_return_content_plan"
+            android:background="@drawable/return_btn"
+            android:layout_height="35dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="21sp"
+            android:text="周计划内容"
+            android:id="@+id/tv_content_plan_title"
+            android:textColor="@color/colorWhite"
+            android:layout_height="wrap_content"/>
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar_content_plan"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_margin="25dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:id="@+id/tv_content_plan_week_num"
+                android:padding="10dp"
+                android:text="第一周"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="18sp"
+                android:layout_below="@+id/tv_content_plan_week_num"
+                android:textColor="#000"
+                android:padding="10dp"
+                android:id="@+id/tv_content_plan_week_day"
+                android:text="星期一"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_below="@+id/tv_content_plan_week_day"
+                android:layout_width="match_parent"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:id="@+id/tv_content_plan_week_content_title"
+                android:padding="10dp"
+                android:text="计划内容："
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edittext_style"
+                android:id="@+id/tv_content_plan_week_content"
+                android:padding="10dp"
+                android:layout_below="@+id/tv_content_plan_week_content_title"
+                android:layout_height="200dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_margin="5dp"
+                android:text="完成打卡："
+                android:textSize="18sp"
+                android:id="@+id/tv_finish_punch_card"
+                android:textColor="#000"
+                android:layout_below="@+id/tv_content_plan_week_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/tv_finish_punch_card"
+                android:layout_centerHorizontal="true"
+                android:text="打卡"
+                android:id="@+id/btn_punch_card"
+                android:textSize="14sp"
+                android:textColor="#fff"
+                android:background="@drawable/button_style_night"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

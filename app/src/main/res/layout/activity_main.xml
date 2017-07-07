@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.asus.sqldesign_test.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar_main"
+        android:background="@color/night_mode"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:id="@+id/iv_return"
+            android:background="@drawable/return_btn"
+            android:layout_height="35dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="21sp"
+            android:text="周计划"
+            android:textColor="@color/colorWhite"
+            android:layout_height="wrap_content"/>
+    </android.support.v7.widget.Toolbar>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:text="查看"
+            android:textColor="#fff"
+            android:layout_marginRight="10dp"
+            android:id="@+id/tv_look_for_finish"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="57dp"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recycler_main"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_week_plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="@color/night_mode"
+        app:rippleColor="#d264e2cb"
+        app:elevation="16dp"
+        app:srcCompat="@drawable/ic_note_add_white_24dp"/>
+</android.support.design.widget.CoordinatorLayout>

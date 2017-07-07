@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sql_lite_query"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.sqldesign_test.activity_set.SqlLite_query">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar_sql_query"
+        android:background="@color/night_mode"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:id="@+id/iv_return_sql_query"
+            android:background="@drawable/return_btn"
+            android:layout_height="35dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="21sp"
+            android:text="数据库表"
+            android:id="@+id/tv_content_plan_title"
+            android:textColor="@color/colorWhite"
+            android:layout_height="wrap_content"/>
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="25dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/toolbar_sql_query"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="180dp"
+            android:text="用户注册表"
+            android:layout_margin="10dp"
+            android:id="@+id/btn_user_table"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:background="@drawable/button_style_night"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="180dp"
+            android:text="用户计划表"
+            android:layout_margin="10dp"
+            android:id="@+id/btn_user_week_plan_table"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:background="@drawable/button_style_night"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+</RelativeLayout>

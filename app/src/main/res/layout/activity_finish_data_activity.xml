@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_finish_data_activity"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.sqldesign_test.activity_set.Finish_data_activity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar_finish_data"
+        android:background="@color/night_mode"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="35dp"
+            android:id="@+id/iv_finish_return"
+            android:background="@drawable/return_btn"
+            android:layout_height="35dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="21sp"
+            android:text="已完成任务"
+            android:textColor="@color/colorWhite"
+            android:layout_height="wrap_content"/>
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="57dp"
+    android:id="@+id/rl_finish"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/recycler_finish_data_week_num"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/rl_finish"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recycler_finish_data"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

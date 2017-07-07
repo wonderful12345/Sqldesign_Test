@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:id="@+id/tv_plan_table_week_num"
+            android:text="第一周"
+            android:gravity="center"
+            android:background="@drawable/edittext_style"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="星期一"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:textColor="#000"
+                    android:background="@drawable/edittext_style"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:padding="12dp"
+                    android:id="@+id/tv_plan_monday_content"
+                    android:text="独守空房多撒芙兰朵露咖啡馆"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:background="@drawable/edittext_style"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="星期二"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:textColor="#000"
+                    android:background="@drawable/edittext_style"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:padding="12dp"
+                    android:id="@+id/tv_plan_second_content"
+                    android:text="独守空房多撒芙兰朵露咖啡馆"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:background="@drawable/edittext_style"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="星期三"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:textColor="#000"
+                    android:background="@drawable/edittext_style"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:padding="12dp"
+                    android:id="@+id/tv_plan_third_content"
+                    android:text="独守空房多撒芙兰朵露咖啡馆"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:background="@drawable/edittext_style"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="星期四"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:textColor="#000"
+                    android:background="@drawable/edittext_style"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:padding="12dp"
+                    android:id="@+id/tv_plan_four_content"
+                    android:text="独守空房多撒芙兰朵露咖啡馆"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:background="@drawable/edittext_style"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="星期五"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:textColor="#000"
+                    android:background="@drawable/edittext_style"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_plan_five_content"
+                    android:padding="12dp"
+                    android:text="独守空房多撒芙兰朵露咖啡馆"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:background="@drawable/edittext_style"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="星期六"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:textColor="#000"
+                    android:background="@drawable/edittext_style"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:padding="12dp"
+                    android:id="@+id/tv_plan_six_content"
+                    android:text="独守空房多撒芙兰朵露咖啡馆"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:background="@drawable/edittext_style"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:text="星期日"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:textColor="#000"
+                    android:background="@drawable/edittext_style"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:padding="12dp"
+                    android:id="@+id/tv_plan_seven_content"
+                    android:text="独守空房多撒芙兰朵露咖啡馆"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:background="@drawable/edittext_style"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
